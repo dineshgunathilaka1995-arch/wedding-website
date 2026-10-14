@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #6b1d2d;
+  --color-maroon-deep: #45101d;
+  --color-rose: #b5555f;
+  --color-blush: #f2dcd6;
+  --color-cream: #fbf5ec;
+  --color-parchment: #f3e8d8;
+  --color-gold: #b48e57;
+
+  --font-script: var(--font-script);
+  --font-serif: var(--font-serif);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-maroon-deep);
+  font-family: var(--font-serif), Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lace-bg {
+  background-color: var(--color-cream);
+  background-image: radial-gradient(
+      circle at 1px 1px,
+      rgba(107, 29, 45, 0.09) 1px,
+      transparent 0
+    ),
+    radial-gradient(circle at 12px 12px, rgba(180, 142, 87, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wedding-entrance {
+    animation: none;
+  }
+}
+
+/* Hide scrollbar */
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
