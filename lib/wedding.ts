@@ -61,8 +61,8 @@ story: [
 
   gallery: [
     { src: "/photos/image4.jpeg" as string | null, alt: "Gayasha and Nimesh, photo 1" },
-    { src: "/photos/image5.png" as string | null, alt: "Gayasha and Nimesh, photo 2" },
-    { src: "/photos/image6.png" as string | null, alt: "Gayasha and Nimesh, photo 3" },
+    { src: "/photos/image5.jpg" as string | null, alt: "Gayasha and Nimesh, photo 2" },
+    { src: "/photos/image6.jpg" as string | null, alt: "Gayasha and Nimesh, photo 3" },
   ],
 
   rsvpBy: "November 15, 2026",
