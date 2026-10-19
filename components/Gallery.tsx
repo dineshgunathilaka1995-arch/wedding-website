@@ -6,7 +6,6 @@ import { Flourish } from "./Ornaments";
 export default function Gallery() {
   return (
     <section className="lace-bg px-6 py-24">
-      {/* Heading */}
       <Reveal className="text-center">
         <p className="mt-3 uppercase tracking-[0.32em] text-gold sm:text-4xl">
           Captured
@@ -61,9 +60,9 @@ export default function Gallery() {
               <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-[#470909]/20 via-transparent to-transparent opacity-70 transition-opacity duration-700 group-hover:opacity-30" />
             </div>
 
-            <div className="absolute bottom-3 left-3 flex h-7 w-7 items-center justify-center rounded-full border border-gold/70 bg-cream/90 text-xs text-maroon">
+            {/* <div className="absolute bottom-3 left-3 flex h-7 w-7 items-center justify-center rounded-full border border-gold/70 bg-cream/90 text-xs text-maroon">
               {String(i + 1).padStart(2, "0")}
-            </div>
+            </div> */}
           </Reveal>
         ))}
       </div>
