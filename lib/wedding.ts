@@ -53,8 +53,8 @@ story: [
   schedule: [
     { time: "8:45 AM", title: "Holy Mass" },
     { time: "11:00 AM", title: "Reception Begins" },
-    { time: "11:05 AM", title: "Welcome Drink" },
-    { time: "12:00 PM", title: "Buffet Opening" },
+    { time: "11:30 AM", title: "Bar Opening" },
+    { time: "12:30 PM", title: "Buffet Opening" },
     { time: "2:00 PM", title: "Going Away" },
     { time: "4:00 PM", title: "Farewell" },
   ],
