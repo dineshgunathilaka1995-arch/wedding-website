@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
   IconBuildingChurch,
   IconConfetti,
-  IconGlassChampagne,
+  IconBeer,
   IconToolsKitchen2,
   IconSparkles,
   IconHeart,
@@ -70,7 +70,7 @@ function ScheduleIcon({ index }: { index: number }) {
       return <IconConfetti {...props} />;
 
     case 2:
-      return <IconGlassChampagne {...props} />;
+      return <IconBeer {...props} />;
 
     case 3:
       return <IconToolsKitchen2 {...props} />;
